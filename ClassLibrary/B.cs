@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProjetCoucou
 {
-    internal class C
+    public class B
     {
+        public string toString()
+        {
+            return "Coucou, je suis A et B";
+        }
     }
 }

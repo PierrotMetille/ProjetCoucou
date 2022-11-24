@@ -10,28 +10,13 @@ namespace ProjetCoucou
     {
         public static void Main() 
         { 
-            string saisie;
+            A a = new A();
+            B b = new B();
+            C c = new C();
 
-            Console.WriteLine("enter an option : ");
-
-            saisie = Console.ReadLine();
-
-            switch (saisie)
-            {
-                case "a":
-                    Console.WriteLine("Coucou, je suis A");
-                    break;
-                case "b":
-                    Console.WriteLine("Coucou, je suis A et B");
-                    break;
-                case "c":
-                    Console.WriteLine("Je suis malade avec un certificat`!");
-                    break;
-                default:
-                    Console.WriteLine("This is not an unvaliable option");
-                    break;
-            }
-
+            Console.WriteLine(A.ToString());
+            Console.WriteLine(b.ToString());
+            Console.WriteLine(c.ToString());
         }
 
 

@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Projet_24._11._2022
+namespace ProjetCoucou
 {
-    internal class Class1
+    public class A
     {
+        public string toString()
+        {
+            return "Coucou, je suis A";
+        }
     }
 }
