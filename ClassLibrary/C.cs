@@ -10,7 +10,7 @@ namespace ProjetCoucou
     {
         public override string ToString()
         {
-            return "Je suis malade avec un certificat";
+            return "Je suis malade avec un certificat.";
         }
     }
 }
