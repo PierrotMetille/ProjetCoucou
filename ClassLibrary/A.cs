@@ -8,7 +8,7 @@ namespace ProjetCoucou
 {
     public class A
     {
-        public string toString()
+        public override string ToString()
         {
             return "Coucou, je suis A";
         }

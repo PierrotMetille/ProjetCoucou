@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProjetCoucou
 {
-    public class B
+    public class B : A
     {
-        public string toString()
+        public override string ToString()
         {
-            return "Coucou, je suis A et B";
+            return base.ToString()+" et B";
         }
     }
 }

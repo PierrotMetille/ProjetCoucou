@@ -8,7 +8,7 @@ namespace ProjetCoucou
 {
     public class C
     {
-        public string toString()
+        public override string ToString()
         {
             return "Je suis malade avec un certificat";
         }

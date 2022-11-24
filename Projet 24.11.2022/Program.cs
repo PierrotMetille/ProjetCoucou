@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Transactions;
+﻿using System.Transactions;
 using System;
 using System.IO;
 
@@ -14,9 +13,9 @@ namespace ProjetCoucou
             B b = new B();
             C c = new C();
 
-            Console.WriteLine(a.toString());
-            Console.WriteLine(b.toString());
-            Console.WriteLine(c.toString());
+            Console.WriteLine(a.ToString());
+            Console.WriteLine(b.ToString());
+            Console.WriteLine(c.ToString());
         }
 
 
