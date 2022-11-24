@@ -1,0 +1,23 @@
+﻿// good old code to put in main
+
+    string saisie;
+
+            Console.WriteLine("enter an option : ");
+
+            saisie = Console.ReadLine();
+
+            switch (saisie)
+            {
+                case "a":
+                    Console.WriteLine("Coucou, je suis A");
+                    break;
+                case "b":
+                    Console.WriteLine("Coucou, je suis A et B");
+                    break;
+                case "c":
+                    Console.WriteLine("Je suis malade avec un certificat`!");
+                    break;
+                default:
+                    Console.WriteLine("This is not an unvaliable option");
+                    break;
+            }
