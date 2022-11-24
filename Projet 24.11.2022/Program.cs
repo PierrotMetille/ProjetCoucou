@@ -14,9 +14,9 @@ namespace ProjetCoucou
             B b = new B();
             C c = new C();
 
-            Console.WriteLine(A.ToString());
-            Console.WriteLine(b.ToString());
-            Console.WriteLine(c.ToString());
+            Console.WriteLine(a.toString());
+            Console.WriteLine(b.toString());
+            Console.WriteLine(c.toString());
         }
 
 
