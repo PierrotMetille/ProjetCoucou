@@ -13,6 +13,7 @@ namespace program
             string saisie;
 
             Console.WriteLine("enter an option : ");
+
             saisie = Console.ReadLine();
 
             switch (saisie)
