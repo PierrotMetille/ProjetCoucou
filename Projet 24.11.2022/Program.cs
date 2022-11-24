@@ -3,7 +3,7 @@ using System.Transactions;
 using System;
 using System.IO;
 
-namespace program
+namespace ProjetCoucou
 {
     
     public class call
