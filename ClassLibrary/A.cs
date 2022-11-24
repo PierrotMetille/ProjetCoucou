@@ -12,5 +12,10 @@ namespace ProjetCoucou
         {
             return "Coucou, je suis A";
         }
+
+        public string OpenDay()
+        {
+            return  "The open day are : " + DateTime.Now.ToString();
+        }
     }
 }
