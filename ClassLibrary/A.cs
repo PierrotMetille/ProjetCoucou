@@ -17,5 +17,9 @@ namespace ProjetCoucou
         {
             return "The open day are : " + DateTime.Today.ToString();
         }
+        public string separator()
+        {
+            return "\n------------";
+        }
     }
 }

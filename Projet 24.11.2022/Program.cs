@@ -12,15 +12,20 @@ namespace ProjetCoucou
             A a = new A();
             B b = new B();
             C c = new C();
+            D d = new D();
+            
 
             Console.WriteLine(a.ToString());
             Console.WriteLine(b.ToString());
             
             Console.WriteLine(c.ToString()+"\n");
             
-            Console.WriteLine(a.OpenDay());
-            Console.WriteLine(b.OpenDay());
-            Console.WriteLine(c.OpenDay());
+            Console.WriteLine(a.OpenDay() + a.separator());
+            Console.WriteLine(b.OpenDay() + a.separator());
+            Console.WriteLine(c.OpenDay() + a.separator());
+            Console.WriteLine(d.OpenDay() + a.separator());
+
+
         }
 
     }
