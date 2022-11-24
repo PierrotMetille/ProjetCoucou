@@ -15,9 +15,12 @@ namespace ProjetCoucou
 
             Console.WriteLine(a.ToString());
             Console.WriteLine(b.ToString());
-            Console.WriteLine(c.ToString());
-
+            
+            Console.WriteLine(c.ToString()+"\n");
+            
             Console.WriteLine(a.OpenDay());
+            Console.WriteLine(b.OpenDay());
+            Console.WriteLine(c.OpenDay());
         }
 
     }

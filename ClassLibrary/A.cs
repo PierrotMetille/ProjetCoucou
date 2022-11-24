@@ -15,7 +15,7 @@ namespace ProjetCoucou
 
         public string OpenDay()
         {
-            return  "The open day are : " + DateTime.Now.ToString();
+            return "The open day are : " + DateTime.Today.ToString();
         }
     }
 }

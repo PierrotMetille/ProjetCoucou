@@ -12,5 +12,9 @@ namespace ProjetCoucou
         {
             return base.ToString()+" et B";
         }
+        public string OpenDay()
+        {
+            return base.OpenDay()+" Woops no, in 2 days";
+        }
     }
 }

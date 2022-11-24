@@ -12,5 +12,9 @@ namespace ProjetCoucou
         {
             return "Je suis malade avec un certificat.";
         }
+        public string OpenDay()
+        {
+            return "The open day are : Nop, i'm not going !";
+        }
     }
 }
